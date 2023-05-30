@@ -1,0 +1,23 @@
+<main class="w-full h-screen flex flex-col">
+  <nav class="gradient-bg flex p-4 justify-between items-center">
+    <div>
+      <img
+        class="w-22 h-20"
+        src="/src//assets/imgs/Marca d'água.PNG"
+        alt="Logo Érika Nutricionista"
+      />
+    </div>
+    <ul class="flex flex-row w-1/5 justify-between mr-6">
+      <li routerLink="" class="font-type cursor-pointer text-lg">Home</li>
+      <li routerLink="/agendamento" class="font-type cursor-pointer text-lg">
+        Agendamento
+      </li>
+      <li routerLink="/sobre" class="font-type cursor-pointer text-lg">
+        Sobre
+      </li>
+    </ul>
+  </nav>
+  <div class="bg-general w-full h-full p-8 overflow-auto">
+    <router-outlet></router-outlet>
+  </div>
+</main>

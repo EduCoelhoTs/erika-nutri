@@ -1,0 +1,19 @@
+.gradient-bg {
+    background: rgb(244, 241, 242);
+    background: radial-gradient(circle, rgba(244, 241, 242, 1) 0%, rgba(217, 233, 148, 1) 100%);
+}
+
+.font-type {
+    color: #BDB76B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.font-type:hover {
+    color: #9c985d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.bg-general {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.945) 91%, rgb(228, 238, 180) 100%);
+}
